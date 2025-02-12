@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats.Api", "Cats.Api\Cats.Api.csproj", "{A0A09FF5-0241-4917-A70B-C519CBEE8873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats.Tests", "Cats.Tests\Cats.Tests.csproj", "{F8FD0E39-E403-4AC2-9E4B-32B80A31653B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0A09FF5-0241-4917-A70B-C519CBEE8873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A09FF5-0241-4917-A70B-C519CBEE8873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A09FF5-0241-4917-A70B-C519CBEE8873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A09FF5-0241-4917-A70B-C519CBEE8873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FD0E39-E403-4AC2-9E4B-32B80A31653B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FD0E39-E403-4AC2-9E4B-32B80A31653B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FD0E39-E403-4AC2-9E4B-32B80A31653B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FD0E39-E403-4AC2-9E4B-32B80A31653B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
