@@ -168,3 +168,4 @@ E:\2.CodeTools\FullstackProjects\StealAllTheCats_V2\Cats.Api\bin\Debug\net9.0\ru
 E:\2.CodeTools\FullstackProjects\StealAllTheCats_V2\Cats.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\2.CodeTools\FullstackProjects\StealAllTheCats_V2\Cats.Api\bin\Debug\net9.0\Cats.Api.xml
 E:\2.CodeTools\FullstackProjects\StealAllTheCats_V2\Cats.Api\obj\Debug\net9.0\Cats.Api.xml
+E:\2.CodeTools\FullstackProjects\StealAllTheCats_V2\Cats.Api\obj\Debug\net9.0\Cats.Api.sourcelink.json

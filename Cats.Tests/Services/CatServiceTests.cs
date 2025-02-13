@@ -2,10 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
-using StealAllTheCats.Data;    // Contains ApplicationDbContext
-using StealAllTheCats.Models;  // Contains CatEntity, etc.
-using StealAllTheCats.Services; // Contains CatService
-using Cats.Tests.Helpers;      // Our helper class
+using StealAllTheCats.Data;    
+using StealAllTheCats.Models;  
+using StealAllTheCats.Services; 
+using Cats.Tests.Helpers;
+
+//When no cats are provided.
+//When adding a unique cat.
+//When handling duplicate cats.
 
 namespace Cats.Tests.Services
 {
