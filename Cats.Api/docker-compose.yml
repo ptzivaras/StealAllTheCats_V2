@@ -1,0 +1,17 @@
+services:
+  catsapi:
+    build: .
+    ports:
+      - "5092:8080"
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=CatDB;User Id=sa;Password=YourStrong(!)Password;Encrypt=False;TrustServerCertificate=True;
+    depends_on:
+      - sqlserver
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "YourStrong(!)Password"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"

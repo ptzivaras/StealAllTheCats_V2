@@ -18,7 +18,7 @@ WORKDIR /app
 COPY --from=build /app/out .
 
 # Expose port 80 (the port your app listens on inside the container)
-EXPOSE 80
+EXPOSE 8080
 
 # Run the application
 ENTRYPOINT ["dotnet", "Cats.Api.dll"]
